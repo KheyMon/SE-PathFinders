@@ -1,3 +1,6 @@
 # SE-PathFinders
 Github repository that is for Software Engineering subject Project.
-This Branch will handle the implementation user registration, login, and roles (for job seeker, employer, admin).
+============
+Members:
+Cardenas, Miguel Enrico - class diagram/database setup
+Borinaga, Railee Dane - Backend set-up
