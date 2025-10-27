@@ -2,4 +2,4 @@
 Github repository that is for Software Engineering subject Project.
 
 Members:
-Cardenas, Miguel Enrico
+Cardenas, Miguel Enrico - class diagram/database setup
