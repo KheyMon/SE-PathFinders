@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF - 8">
+        <title>PathFinder - Find Your Path to Success</title>
+        <link rel="stylesheet" href="WebPage\Style\Style css.css">
+
+    </head>
+    <body>
+        <header id = "header" class = "header">
+            <div class = "container header-content"> 
+                <div class = "logo" onclick="navigateTo('landing')">
+                    <svg class = "logo-icon" width="32" height="32" viewbox = "0 0 24 24" fill="none" stroke="currentColor" strokewidth="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                    <span class="logo-text">PathFinder</span>
+                </div>
+                <nav class="nav">
+                  <button class="nav-link" onclick="navigateTo('job-listings')">Browse Jobs</button>
+                  <button class="nav-link" onclick="navigateTo('skillbuild')">SkillBuild</button>
+                  <button id="auth-button" class="btn btn-primary" onclick="handleAuthClick()">Login</button>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main-content">
+
+        </main>
+        <script src="WebPage\Script\app.js"></script>
+    </body>
+
+
+</html>
