@@ -1,0 +1,19 @@
+/* css/style.css - minimal, clean */
+body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#222;background:#f7f8fb}
+.container{max-width:980px;margin:30px auto;padding:0 16px}
+.header{background:#fff;padding:12px 0;border-bottom:1px solid #e6e6e6}
+.header .nav{display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:700;color:#1372e6}
+.nav-right a{margin-left:12px;text-decoration:none;color:#333;padding:8px 12px;border-radius:6px}
+.nav-right a.primary{background:#1372e6;color:#fff}
+.hero{background:linear-gradient(180deg,#1e90ff,#1a66d4);color:#fff;padding:48px;border-radius:8px;margin-top:18px;text-align:center}
+.cards{display:flex;gap:16px;margin-top:18px}
+.card{background:#fff;padding:20px;border-radius:8px;flex:1;box-shadow:0 2px 8px rgba(20,20,20,.04)}
+.job-list{margin-top:18px}
+.job-item{background:#fff;padding:12px;border-radius:6px;margin-bottom:10px;border:1px solid #eee;display:flex;justify-content:space-between;align-items:center}
+.btn{padding:8px 12px;border-radius:6px;border:0;cursor:pointer}
+.btn.primary{background:#1372e6;color:#fff}
+.small{font-size:13px;color:#666}
+.form{background:#fff;padding:18px;border-radius:8px}
+.input, textarea{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;margin-top:6px;margin-bottom:12px}
+.footer{text-align:center;color:#777;margin:30px 0}

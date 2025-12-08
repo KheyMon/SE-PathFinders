@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Register</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+  <div class="header container">
+    <div class="nav"><div class="logo">PathFinder</div><div class="nav-right"><a href="index.html">Home</a></div></div>
+  </div>
+  <div class="container">
+    <div class="form" style="max-width:520px">
+      <h3>Register</h3>
+      <input id="name" class="input" placeholder="Full name">
+      <input id="email" class="input" placeholder="Email">
+      <input id="password" type="password" class="input" placeholder="Password">
+      <select id="role" class="input">
+        <option value="jobseeker">Job Seeker</option>
+        <option value="employer">Employer</option>
+      </select>
+      <button id="btn" class="btn primary">Register</button>
+    </div>
+  </div>
+
+<script src="js/app.js"></script>
+<script>
+document.getElementById('btn').addEventListener('click', async ()=>{
+  const payload = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    password: document.getElementById('password').value,
+    role: document.getElementById('role').value
+  };
+  const res = await api('register.php','POST',payload);
+  if (res.ok) { alert('Registered'); window.location.href='login.html' }
+  else alert(res.error || 'Registration error');
+});
+</script>
+</body>
+</html>
